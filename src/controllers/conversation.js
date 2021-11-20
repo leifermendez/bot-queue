@@ -28,6 +28,10 @@ const listenMessage = (client) => {
             return
         }
 
+        /**
+         * más step...
+         */
+
         /***************************** FLOW ******************************** */
 
         if (step && step.includes('STEP_2_1')) {
@@ -36,6 +40,10 @@ const listenMessage = (client) => {
             await readChat(from, body)
             return
         }
+
+        /**
+         * más flows...
+         */
 
     });
 }

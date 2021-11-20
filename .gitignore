@@ -2,3 +2,4 @@ node_modules
 .env
 chats/*.xlxs
 !chats/.gitkeep
+session.js
